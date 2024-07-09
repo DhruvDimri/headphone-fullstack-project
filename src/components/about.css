@@ -1,0 +1,41 @@
+.about{
+  max-width: 1300px;
+   background-color:  #383636;
+   margin: 200px auto !important;
+   color: rgba(255, 255, 255, 0.848);
+}
+.about-wrapper{
+   padding: 15px 20px 60px 20px;
+   background-color:  #383636;
+   display: flex;
+   /* flex-wrap: wrap; */
+   position: relative;
+}
+.about-text{
+    background-color:  #383636;
+    max-width: 800px;
+}
+.about-text h2{
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: rgb(240, 82, 25);
+}
+.about-text p{
+    margin-bottom: 32px;
+}
+.about-img-wrapper{
+    position: absolute;
+    right: 35px;
+    top: -30px;
+}
+.about-button{
+    padding: 8px 35px;
+    color: rgb(240, 82, 25);
+    border: 1px solid rgb(240, 82, 25);
+}
+.about-button:hover{
+    color: rgba(255, 255, 255, 0.848);
+    background-color: rgb(240, 82, 25);
+    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.785);
+}
+
