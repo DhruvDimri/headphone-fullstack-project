@@ -32,6 +32,7 @@
     padding: 8px 35px;
     color: rgb(240, 82, 25);
     border: 1px solid rgb(240, 82, 25);
+    font-weight: 500;
 }
 .about-button:hover{
     color: rgba(255, 255, 255, 0.848);

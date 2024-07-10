@@ -3,7 +3,7 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg py-3">
+    <nav class="navbar navbar-expand-lg py-3 navigation">
       <div class="container">
         <a class="navbar-brand logo text-uppercase" href="#">
           Brand

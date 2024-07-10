@@ -1,3 +1,22 @@
 .nav-item{
     padding: 0 35px;
+    font-size: 17px;
+}
+.nav-item a {
+    color: rgba(255, 255, 255, 0.848) !important;
+}
+.navigation{
+    background-color: #232323;
+}
+.logo{
+    color: rgba(255, 255, 255, 0.848) !important;
+    font-size: 27px !important;
+    font-weight: 700;
+}
+.collapsed{
+    color: white !important;
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: white;
 }
