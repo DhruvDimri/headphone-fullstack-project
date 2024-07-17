@@ -13,10 +13,27 @@
     font-size: 27px !important;
     font-weight: 700;
 }
-.collapsed{
+/* .collapsed{
     color: white !important;
     background-color: white;
-}
+} */
 .navbar-toggler{
     background-color: white;
+    color: white !important;
+}
+/* .navbar-collapse{
+    background-color: white;
+    color: white !important;
+} */
+/* .collapse{
+    background-color: white;
+    color: white !important;
+} */
+/* .show{
+    background-color: white;
+    color: white !important;
+} */
+.navbar-toggler-icon{
+    background-color: white;
+    color: white !important;
 }

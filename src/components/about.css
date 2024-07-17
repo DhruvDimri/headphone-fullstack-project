@@ -7,21 +7,24 @@
 .about-wrapper{
    padding: 15px 20px 60px 20px;
    background-color:  #383636;
-   display: flex;
+   
    /* flex-wrap: wrap; */
    position: relative;
 }
 .about-text{
     background-color:  #383636;
     max-width: 800px;
+    
 }
 .about-text h2{
     font-weight: 700;
     margin-bottom: 32px;
     color: rgb(240, 82, 25);
+    background-color:  #383636;
 }
 .about-text p{
     margin-bottom: 32px;
+    background-color:  #383636;
 }
 .about-img-wrapper{
     position: absolute;
@@ -33,10 +36,42 @@
     color: rgb(240, 82, 25);
     border: 1px solid rgb(240, 82, 25);
     font-weight: 500;
+    /* background-color:  #383636; */
 }
 .about-button:hover{
     color: rgba(255, 255, 255, 0.848);
     background-color: rgb(240, 82, 25);
-    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.785);
+    box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.785);
+}
+
+@media (max-width: 1283px) {
+    .about-wrapper{
+        padding: 15px 10px 60px 20px;
+        background-color:  #383636;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .about-img-wrapper{
+        position: static;
+        margin-top: 30px;
+    }
+    .about-text{
+        background-color:  #383636;
+        max-width: 100%;
+    }
+}
+@media (max-width:463px) {
+    .about-img-wrapper{
+       width: 100%;
+    }
+    .about-image{
+        width: 100%;
+    }
+}
+@media (max-width:410px) {
+    .about-text .about-button{
+     margin: auto;
+    }
 }
 

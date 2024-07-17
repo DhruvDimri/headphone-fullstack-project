@@ -5,7 +5,7 @@ const Think = () => {
   return (
     <section className="think">
       <h2>
-        What People Think <span> About Us</span>
+        What People Think <span className="think-span"> About Us</span>
       </h2>
       <div className="container-fluid">
         <div className="row">

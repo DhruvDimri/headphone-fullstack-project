@@ -5,12 +5,12 @@ const Contact = () => {
   return (
     <section className="contact-form">
       <h2>Contact Us</h2>
-      <div className="container">
+      <div className="container contact-container">
         <div className="row">
-          <div className="col-lg-6 py-5 px-4">
+          <div className="col-lg-6 py-5 px-4 form-left">
             <form className="form-origin">
-              <div className="row">
-                <div className="col-lg-6">
+              <div className="row form-left">
+                <div className="col-lg-6 form-left">
                   <div class="mb-3">
                     <input
                       type="text"
@@ -21,7 +21,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 form-left">
                   <div class="mb-3">
                     <input
                       type="Email"
@@ -32,8 +32,8 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="row rowe mx-auto">
-                  <div className="col-lg-12 px-0 mb-4">
+                <div className="row mx-auto form-left">
+                  <div className="col-lg-12 px-0 mb-4 form-left">
                     <div class="mb-4">
                       <textarea
                         class="form-control"
@@ -43,9 +43,9 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-lg-12  text-center ">
-                    <div class="mb-3">
+                <div className="row form-left">
+                  <div className="col-lg-12  form-left text-center ">
+                    <div class="mb-3 form-left">
                       <button className="contact-button">
                         SEND MESSAGE NOW
                       </button>

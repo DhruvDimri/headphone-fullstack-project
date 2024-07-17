@@ -5,7 +5,7 @@ import headphone from "../assets/purepng.com-headphoneelectronics-headset-headph
 const Home = () => {
   return (
     <>
-    <div className="container">
+    <div className="container home">
     <div className="row">
         <div className="col-md-7  headphone">
             <img src={headphone} alt="headphone" className='img-fluid'/>

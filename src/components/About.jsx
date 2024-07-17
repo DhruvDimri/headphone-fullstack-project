@@ -13,7 +13,7 @@ const About = () => {
             <button className="about-button">READ MORE &gt;</button>
         </div>
         <div className="about-img-wrapper">
-            <img src={airdope} alt="sorry" width="450px" height="406px" className=""/>
+            <img src={airdope} alt="sorry" width="450px" height="406px" className="about-image"/>
         </div>
       </div>
     </div>
