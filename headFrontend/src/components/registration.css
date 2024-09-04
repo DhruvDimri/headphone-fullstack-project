@@ -1,0 +1,83 @@
+.registration{
+    height: 100vh;
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+    /* background-color: rgba(250, 188, 166, 0.858); */
+    position: relative;
+}
+.registration > form {
+    text-align: start;
+}
+.registration > form > input{
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+    margin-bottom: 14px;
+    background-color: rgb(236, 231, 231);
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.registration > form > input{
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+    margin-bottom: 14px;
+    background-color: rgb(236, 231, 231);
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.registration > form > input::placeholder{
+    color: rgb(121, 112, 112) !important;
+}
+.registration > p{
+    text-align: start;
+    background-color: transparent;
+    color: rgb(234, 222, 222)
+}
+.registration > form > button{
+    width: fit-content;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-left: 0px;
+    background-color: rgb(240, 82, 25);
+    border: 1px solid rgb(240, 82, 25);
+    font-size: 17px;
+    color: white;
+}
+.registration > form > button:hover{
+    box-shadow: 0px 0px 8px white;
+    text-shadow: 0px 0px 8px black;
+}
+.registration > p > span{
+    color: rgb(240, 82, 25);
+    font-size: 40px !important;
+    background-color: transparent;
+    font-weight: 500;
+}
+.registration > :first-child{
+    position: absolute;
+    top: 35px;
+    left: -36px;
+    color: rgb(240, 82, 25);
+    font-size: 30px;
+}
+.registration > :nth-child(2){
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.registration > :nth-child(3){
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+

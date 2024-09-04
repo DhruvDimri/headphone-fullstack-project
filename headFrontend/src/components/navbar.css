@@ -1,0 +1,33 @@
+.nav-item{
+    padding: 0 35px;
+    font-size: 17px;
+}
+.nav-item > a {
+    color: rgba(255, 255, 255, 0.848) !important;
+}
+.nav-item > a.active{
+     color: rgb(240, 82, 25) !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navigation{
+    background-color: #232323;
+    /* height: fit-content; */
+}
+.navigation-display{
+    display: none;
+}
+.logo{
+    color: rgba(255, 255, 255, 0.848) !important;
+    font-size: 27px !important;
+    font-weight: 700;
+}
+.navbar-toggler{
+    background-color: white;
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+    color: white !important;
+}

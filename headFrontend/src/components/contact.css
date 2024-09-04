@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+}
+.contact-button{
+    padding: 15px 45px;
+    border-radius: 25px;
+    background-color:  rgb(240, 82, 25);
+    color:  rgba(255, 255, 255, 0.848);
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-right{
+    color: #e4e3e3;
+    padding: 35px 30px 10px 35px;
+}
+.contact-more{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.contact-orng{
+    color: rgb(240, 82, 25);
+}
+.contact-scnd-p{
+    margin-bottom: 45px;
+    line-height: 25px;
+}
+
+.contact-page-container{
+    height: 90vh;
+}
+.contact-page-container > h2{
+    margin: 10px 0px 70px 0px;
+    padding: 3px;
+    color: rgb(240, 82, 25);
+    font-weight: 700;
+}
+ .contact-form-container > h2{
+    /* background-color: pink; */
+    margin: 40px 0px 50px 0px;
+    padding: 3px;
+    color: rgb(240, 82, 25);
+    font-weight: 700;
+ }
+ .contact-form-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+ }
+.contact-form-flex > .contact-left{
+    max-width: 700px;
+    width: 100%;
+    padding: 35px 18px;
+    background-color:  #383636;
+}
+.contact-form-flex > .contact-right{
+    max-width: 700px;
+    width: 100%;
+}
+.contact-left-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.contact-left-group > :first-child{
+    max-width: 320px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border: 1px solid #e4e3e3;
+    background-color: transparent;
+    outline: none;
+    padding: 15px 22px;
+    
+}
+.contact-left-group > :last-child{
+    max-width: 320px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    border: 1px solid #e4e3e3;
+    background-color: transparent;
+    outline: none;
+    padding: 15px 22px;
+}
+.contact-left > :nth-child(2){
+    margin-top: 35px;
+    width: 100%;
+    resize: none;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    color: white;
+    border: 1px solid #e4e3e3;
+    background-color: transparent;
+    outline: none;
+    padding: 15px 22px;
+}
+.contact-left > :last-child{
+    padding: 15px 45px;
+    border-radius: 25px;
+    background-color:  rgb(240, 82, 25);
+    color:  rgba(255, 255, 255, 0.848);
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contact-left > :last-child:hover{
+    box-shadow: 0px 1px 7px rgba(255, 255, 255, 0.785);
+}
+::placeholder{
+    color: #777;
+}
+
+
+@media (max-width:676px) {
+    .contact-left-group > :last-child{
+        max-width: 700px;
+        width: 100%;
+        
+    }
+    .contact-left-group > :first-child{
+        max-width: 700px;
+        width: 100%;
+        margin-bottom: 15px;
+        
+    }
+}
+@media (max-width:550px) {
+    .contact-page-container > h2{
+        margin: 5px 0px 40px 0px;
+        padding: 3px;
+        color: rgb(240, 82, 25);
+        font-weight: 700;
+    }
+}
+

@@ -1,0 +1,99 @@
+.home{
+    background-color: #232323;
+    color: rgba(255, 255, 255, 0.848) !important;
+}
+.designed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+.para{
+    font-size: 50px;
+    font-weight: 650;
+}
+.headphone{
+    margin-top: 2px;
+    padding-top: 15px;
+   height: 650px;
+   display: flex;
+   justify-content: center;
+  
+}
+.para1{
+    color: gray !important;
+}
+.span{
+    color: rgb(240, 82, 25) !important;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    /* justify-content: center; */
+    /* height: fit-content; */
+}
+.buton1{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid rgb(240, 82, 25);
+    font-weight: 500;
+    font-size: 17px;
+    background-color: rgb(240, 82, 25);
+    color: rgba(255, 255, 255, 0.848);
+}
+.buton2{
+
+    text-decoration: none;
+    padding: 10px 56px;
+    border-radius: 25px;
+    /* margin-right: 15px; */
+    border: 1px solid rgb(240, 82, 25);
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.848);
+}
+.buton1:hover{
+    background-color: rgb(240, 82, 25);
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.785);
+    color: rgba(255, 255, 255, 0.848);
+}
+.buton2:hover{
+    background-color: rgb(240, 82, 25);
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.785);
+}
+@media (max-width:768px) {
+     .designed{
+        margin: auto;
+        text-align: center;
+     }
+}
+@media (max-width:992px) and (min-width:768px) {
+    .buton1{
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .buton2{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:992px) {
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:381px) {
+    .buton1{
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .buton2{
+        margin-bottom: 10px;
+    }
+}
+
+
