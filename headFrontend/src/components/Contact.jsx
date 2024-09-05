@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:8000/users/submit-message", {
+      const response = await fetch("https://headphone-fullstack-project-1.onrender.com/users/submit-message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

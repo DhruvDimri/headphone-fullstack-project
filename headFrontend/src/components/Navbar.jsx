@@ -10,7 +10,7 @@ const Navbar = () => {
     const navigate = useNavigate();
     async function handleSubmit() {
       try {
-        const response = await fetch("http://localhost:8000/users/logout", {
+        const response = await fetch("https://headphone-fullstack-project-1.onrender.com/users/logout", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

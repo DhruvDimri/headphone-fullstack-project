@@ -10,7 +10,7 @@ const ProtectedRoute = ({ element: Element, ...rest}) => {
         const checkAuth = async () => {
             console.log("aagya check auth route pe")
             try {
-                const response = await fetch('http://localhost:8000/users/check-auth', {
+                const response = await fetch('https://headphone-fullstack-project-1.onrender.com/users/check-auth', {
                     method: 'GET',
                     credentials: 'include',
                 });
