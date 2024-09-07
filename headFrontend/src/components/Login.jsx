@@ -23,13 +23,14 @@ const Login = () => {
       const response = await fetch("https://headphone-fullstack-project-1.onrender.com/users/login", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/json"
         },
         credentials: "include",
         body: JSON.stringify(login),
       });
       if (response.ok) {
         console.log("Login successfully");
+        console.log("cookie mil gyi");
         navigate("/home");
       } else {
         // Handle non-JSON responses

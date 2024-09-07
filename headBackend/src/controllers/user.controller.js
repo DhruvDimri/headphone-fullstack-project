@@ -73,10 +73,11 @@ const loginUser = async(req,res) => {
                 httpOnly: true,
                 secure: true,
                 sameSite: 'None',
-                maxAge: 3600000
+                maxAge: 3600000,
+                domain: '.onrender.com'
             });
             res.status(201).send({message: "You can login"});
-        
+            console.log("cookie bhej di");
     });
 };
 
