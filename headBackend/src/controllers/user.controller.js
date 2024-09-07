@@ -72,7 +72,7 @@ const loginUser = async(req,res) => {
             res.cookie('token', token, {
                 httpOnly: true,
                 secure: true,
-                samesite: 'Strict',
+                samesite: 'None',
                 maxAge: 3600000
             });
             res.status(201).send({message: "You can login"});
