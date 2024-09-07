@@ -76,7 +76,7 @@ const loginUser = async(req,res) => {
                 maxAge: 3600000,
                 // domain: '.onrender.com'
             });
-            console.log("cookie bhej di");
+            // console.log("cookie bhej di");
             res.status(201).send({message: "You can login"});
             
     });
@@ -93,7 +93,7 @@ const checkUser = (req, res) => {
     const token = req.cookies.token;
     
     if (!token) {
-        console.log("token hi nhi aa rha yha pe")
+        // console.log("token hi nhi aa rha yha pe")
        return res.sendStatus(401).send('Unauthorized');
 
     } 

@@ -29,8 +29,8 @@ const Login = () => {
         body: JSON.stringify(login),
       });
       if (response.ok) {
-        console.log("Login successfully");
-        console.log("cookie mil gyi");
+        // console.log("Login successfully");
+        // console.log("cookie mil gyi");
         navigate("/home");
       } else {
         // Handle non-JSON responses
@@ -38,15 +38,15 @@ const Login = () => {
         if (contentType && contentType.includes("application/json")) {
           // Response is JSON
           const errorData = await response.json();
-          console.log("Error response from server:", errorData);
+          // console.log("Error response from server:", errorData);
         } else {
           // Response is not JSON
           const errorText = await response.text();
-          console.log("Error response from server:", errorText);
+          // console.log("Error response from server:", errorText);
         }
       }
     } catch (error) {
-      console.log("Error h fetch mai", error.message);
+      console.log("There is some error in fetch method", error.message);
     }
   }
 

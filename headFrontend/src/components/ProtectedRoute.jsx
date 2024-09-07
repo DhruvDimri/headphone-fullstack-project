@@ -15,7 +15,7 @@ const ProtectedRoute = ({ element: Element, ...rest}) => {
                     credentials: 'include',
                 });
 
-                console.log('Response status:', response.status );
+                // console.log('Response status:', response.status );
 
                 if(response.ok){
                     setIsAuthenticated(true);
@@ -23,7 +23,7 @@ const ProtectedRoute = ({ element: Element, ...rest}) => {
                     setIsAuthenticated(false);
                 }
             } catch(error) {
-                console.error('Auth check failed:', error)
+                // console.error('Auth check failed:', error)
                 setIsAuthenticated(false);
             }finally {
                 setLoading(false);
