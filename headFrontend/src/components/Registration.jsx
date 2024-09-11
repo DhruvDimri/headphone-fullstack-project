@@ -38,6 +38,7 @@ async function handleSubmit(e){
     }else {
       const errorData = await response.json();
       // console.log("error response from server", errorData)
+      alert("ccokie nhi aayi");
     }
   } catch (error) {
     // console.log("Error h fetch mai", error)
