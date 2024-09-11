@@ -4,8 +4,6 @@ import jwt from "jsonwebtoken"
 
 
 
-
-
 const registerUser = async(req, res) =>{
     
     try {
@@ -39,9 +37,8 @@ const registerUser = async(req, res) =>{
                     res.cookie('token', token, {
                         httpOnly: true,
                         secure: true,
-                        samesite: 'None',
-                        // samesite: 'Strict',
-                        maxAge: 3600000
+                        sameSite: 'None',
+                        maxAge: 3600000,
                     });
                     res.status(201).send({message: "User registered Successfully"});
                     // console.log(token);
