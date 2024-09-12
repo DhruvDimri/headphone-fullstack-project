@@ -66,11 +66,7 @@
     font-weight: 500;
 }
 .registration > :first-child{
-    position: absolute;
-    top: 35px;
-    left: -36px;
-    color: rgb(240, 82, 25);
-    font-size: 30px;
+    display: none;
 }
 .registration > :nth-child(2){
     font-size: 35px;
